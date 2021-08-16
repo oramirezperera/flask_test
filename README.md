@@ -3,12 +3,12 @@ An API made in Flask.
 
 This API has two main branches jokes and numbers:
 
-### Jokes 
+### Jokes :laughing:
 If you pass a path use the route '/jokes' you will get a random joke. Instead if you pass a path paragram with the word Chuck or the word Dad you will get a Chuck Norrris joke from the [Chuck Norris API](https://api.chucknorris.io) or a dad joke from [Dad jokes API](https://icanhazdadjoke.com/api).
 
 If you dont pass any paramaters a random Chuck or Dad joke will be returned
 
-### Numbers
+### Numbers :1234:
 
 - Using the path /numbers you must pass a list of integers as a path parameter this will return the least common multiple of the numbers.
 
@@ -16,11 +16,11 @@ If you dont pass any paramaters a random Chuck or Dad joke will be returned
 
 If any paramater is passed the functions works with example code.
 
-## Starting
+## Starting :rocket:
 
 You will need to clone this repository 
 
-### Prerequirements
+### Prerequirements :clipboard:
 - You will need Python 3.X installed on your computer
 - You will need some Python libraries such as requests and Flask.
 
@@ -58,7 +58,7 @@ Now that we have activate our virtual environment we can install all the librari
 pip3 install -r requirements.txt
 ```
 
-## Runing
+## Runing 
 
 Once you have installed the libraries needed in this project you can run the flask API using:
 
@@ -70,7 +70,7 @@ copy and paste the url returned
 
 You will be in the front page of the app, you can click on the list and see the functions, or you can write the url and paramaters by yourself
 
-## Built with
+## Built with :wrench:
 
 - Python 3.8 or higher
 - Flask
