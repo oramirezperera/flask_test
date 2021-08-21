@@ -65,10 +65,24 @@ Once you have installed the libraries needed in this project you can run the fla
 ```Bash
 $ flask run
 ```
+Now your server running and you can request the API.
 
-copy and paste the url returned
+To do this you need to open a new terminal and write the following code
 
-You will be in the front page of the app, you can click on the list and see the functions, or you can write the url and paramaters by yourself
+```Bash
+curl http://127.0.0.1:5000/
+```
+
+And after the url of your server write the parameters you need.
+
+Remember these can be
+/jokes/
+/number/
+/numbers/
+/chuck/
+/dad/
+
+Your request will return a json.
 
 ## Built with :wrench:
 
