@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, url_for
+from flask_restful import Api, Resource 
 import re
 from math import gcd
 import requests
@@ -6,6 +7,7 @@ import random
 
 
 app = Flask(__name__)
+api = Api(app)
 
 
 @app.route('/')
